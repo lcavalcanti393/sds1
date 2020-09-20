@@ -4,7 +4,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 
 import Home from './Pages/Home';
-import CreateRecords from './Pages/CreateRecords';
+import CreateRecord from './Pages/CreateRecords';
 
 const Stack = createStackNavigator();
 
@@ -20,7 +20,7 @@ const Routes = () => {
             }}
             >
                 <Stack.Screen name="Home" component={Home} />
-                <Stack.Screen name="CreateRecords" component={CreateRecords} />
+                <Stack.Screen name="CreateRecords" component={CreateRecord} />
             </Stack.Navigator>
         </NavigationContainer>
     );
