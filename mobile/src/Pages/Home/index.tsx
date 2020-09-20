@@ -2,36 +2,41 @@ import React from 'react';
 import { FontAwesome5 as Icon } from '@expo/vector-icons';
 import { Text, View, Image, StyleSheet, Alert } from 'react-native';
 import { RectButton } from 'react-native-gesture-handler';
+import { useNavigation } from '@react-navigation/native';
+
+import Header from '../../Components/Hearder';
 
 const Home = () => {
+  const navigation = useNavigation();
 
     const handleOnPress = () => {
-        Alert.alert('Você apertou o botão!')
+        navigation.navigate('CreateRecords');
     };
 
     return (
         <>
-            <View style={styles.container}>
-                <Image 
-                    source={require('../../assets/gamer.png')} 
-                    style={styles.gamerImage} 
-                />
-                <Text style={styles.title}>Vote agora!</Text>
-                <Text style={styles.subTitle}>Nos diga qual é seu jogo favorito!</Text>
-            </View>
+          <Header />
+          <View style={styles.container}>
+            <Image 
+              source={require('../../assets/gamer.png')} 
+              style={styles.gamerImage} 
+            />
+            <Text style={styles.title}>Vote agora!</Text>
+            <Text style={styles.subTitle}>Nos diga qual é seu jogo favorito!</Text>
+          </View>
 
-            <View style={styles.footer}>
-                <RectButton style={styles.button} onPress={handleOnPress}>
-                    <Text style={styles.buttonText}>
-                        COLETAR DADOS
-                    </Text>
-                    <View style={styles.buttonIcon}>
-                        <Text>
-                            <Icon name="chevron-right" color="#fff" size={15} /> 
-                        </Text>
-                    </View>
-                </RectButton>
-            </View>
+          <View style={styles.footer}>
+            <RectButton style={styles.button} onPress={handleOnPress}>
+              <Text style={styles.buttonText}>
+                COLETAR DADOS
+              </Text>
+              <View style={styles.buttonIcon}>
+                <Text>
+                  <Icon name="chevron-right" color="#fff" size={15} /> 
+                </Text>
+              </View>
+            </RectButton>
+          </View>
         </>
     );
 
