@@ -9,7 +9,6 @@
 ---
 
 ### Tecnologias
-
 As tecnologias utilizadas foram:
 
 -   Backend:
