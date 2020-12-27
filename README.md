@@ -2,3 +2,37 @@
 
 <h3 align="center">Big Game Survey</h3>
 
+---
+
+A aplicação mostra as preferências por jogos/plataformas através de pesquisa com o resultado em gráficos e tabela. 
+
+## Tecnologias
+
+As tecnologias utilizadas foram:
+
+-   Backend:
+    
+    -   [Java](https://www.java.com/pt_BR/)
+    -   [Spring Framework](https://spring.io/projects/spring-framework)
+    -   [H2](https://www.h2database.com/html/main.html)
+    -   [PostgreSQL](https://www.postgresql.org/)
+    -   [pgAdmin](https://www.pgadmin.org/)
+    -   [Postman](https://www.postman.com/)
+    -   [Eclipse](https://www.eclipse.org/downloads/)
+    
+-   Frontend:
+    
+    -   [ReactJS](https://reactjs.org/)
+    -   [Typescript](https://www.typescriptlang.org/)
+    -   [React Router v5](https://github.com/ReactTraining/react-router)
+    -   [Axios](https://github.com/axios/axios)
+    -   [ApexCharts.js](https://apexcharts.com/)
+    
+-   Mobile:
+    
+    -   [React Native](https://reactnative.dev/)
+    -   [Expo](https://expo.io/)
+    -   [Typescript](https://www.typescriptlang.org/)
+    -   [React Navigation v5](https://reactnavigation.org/)
+    -   [Axios](https://github.com/axios/axios)
+    -   [Expo](https://expo.io/)
