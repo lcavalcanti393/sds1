@@ -6,6 +6,8 @@
 
 <p align="center">A aplicação mostra as preferências por jogos/plataformas através de pesquisa com o resultado em gráficos e tabela.</p>
 
+---
+
 ## Tecnologias
 
 As tecnologias utilizadas foram:
