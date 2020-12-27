@@ -6,7 +6,7 @@
 
 <p align="center">A aplicação mostra as preferências por jogos/plataformas através de pesquisa com o resultado em gráficos e tabela.</p>
 
-<p align="center">Veja no [Figma](https://www.figma.com/proto/AE96dXBqHTLIWI0wU340Px/BigGameSurvey?node-id=2%3A386&scaling=min-zoom)</p>
+->Veja no [Figma](https://www.figma.com/proto/AE96dXBqHTLIWI0wU340Px/BigGameSurvey?node-id=2%3A386&scaling=min-zoom)<-
 
 ---
 
