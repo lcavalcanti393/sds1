@@ -2,7 +2,6 @@
 
 <h2 align="center">Big Game Survey</h2>
 
----
 
 <p align="center">A aplicação mostra as preferências por jogos/plataformas através de pesquisa com o resultado em gráficos e tabela.</p>
 
